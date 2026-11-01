@@ -20,6 +20,16 @@ learn-react-vite/
 │   ├── CHECKPOINT_1_NOTES.md       # Comprehensive revision notes for Foundations
 │   └── package.json                # Project dependencies and scripts
 │
+├── 02-basics/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── JobCard.jsx         # Card component with conditional badge
+│   │   │   └── JobRender.jsx       # Dynamic list rendering (.map) & key prop
+│   │   ├── App.jsx                 # Clean root component
+│   │   └── main.jsx
+│   ├── NOTES.md                    # Revision notes for Lists, Keys & Modular imports
+│   └── package.json
+│
 └── README.md                       # Repository overview and roadmap
 ```
 
