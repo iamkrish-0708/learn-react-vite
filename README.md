@@ -30,6 +30,17 @@ learn-react-vite/
 │   ├── NOTES.md                    # Revision notes for Lists, Keys & Modular imports
 │   └── package.json
 │
+├── 03-basics/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Card.jsx            # Reusable container component (props.children)
+│   │   │   └── Badge.jsx           # Dynamic status pill badge
+│   │   ├── App.css                 # Flexbox layout and hover styles
+│   │   ├── App.jsx                 # Multi-card composition with responsive grid
+│   │   └── main.jsx
+│   ├── NOTES.md                    # Revision notes for children prop, zones, & layout
+│   └── package.json
+│
 └── README.md                       # Repository overview and roadmap
 ```
 
