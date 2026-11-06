@@ -54,6 +54,19 @@ learn-react-vite/
 │   ├── NOTES.md                    # Revision notes for the 4 design patterns
 │   └── package.json
 │
+├── 05-course-decker/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx          # Navigation header with actions
+│   │   │   ├── Button.jsx          # Dynamic variant button (hot, new, default)
+│   │   │   ├── Badge.jsx           # Status pill badge (fastfilling, newly, default)
+│   │   │   └── Card.jsx            # Container component with dynamic hot border
+│   │   ├── App.css                 # Dark blue theme & responsive flexbox container
+│   │   ├── App.jsx                 # Dynamic course catalog with .map() loop
+│   │   └── main.jsx
+│   ├── NOTES.md                    # Key takeaways on variable scope and style objects
+│   └── package.json
+│
 └── README.md                       # Repository overview and roadmap
 ```
 
@@ -63,8 +76,8 @@ learn-react-vite/
 
 | Checkpoint | Focus Area | Status |
 | :--- | :--- | :---: |
-| **01. Foundations & UI** | Vite, JSX, Components, Props, Conditional Rendering, Lists | 🟡 In Progress |
-| **02. State & Reactivity** | `useState`, Event Handling, State Immutability, Forms | ⚪ Upcoming |
+| **01. Foundations & UI** | Vite, JSX, Components, Props, Conditional Rendering, Lists, Containers | 🟢 Completed |
+| **02. State & Reactivity** | `useState`, Event Handling, State Immutability, Forms | 🟡 Next Up |
 | **03. APIs & Lifecycle** | `useEffect`, Asynchronous Fetching, Loading/Error States | ⚪ Upcoming |
 | **04. Routing & SPAs** | React Router DOM v6+, Dynamic Parameters, Layouts | ⚪ Upcoming |
 | **05. Global State & Hooks** | Context API, Custom Hooks, Clean Production Architecture | ⚪ Upcoming |
