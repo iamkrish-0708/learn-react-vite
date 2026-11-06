@@ -41,6 +41,19 @@ learn-react-vite/
 │   ├── NOTES.md                    # Revision notes for children prop, zones, & layout
 │   └── package.json
 │
+├── 04-capstone-ui/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx          # Top navigation bar with branding & CTA
+│   │   │   ├── Button.jsx          # Variant-driven button (primary, outline, danger)
+│   │   │   ├── Badge.jsx           # Status badge pill (success, warning, danger)
+│   │   │   └── Card.jsx            # Container wrapper with highlight prop
+│   │   ├── App.css                 # Dark theme, grid layout, and hover micro-interactions
+│   │   ├── App.jsx                 # Assembled SaaS feature showcase with .map()
+│   │   └── main.jsx
+│   ├── NOTES.md                    # Revision notes for the 4 design patterns
+│   └── package.json
+│
 └── README.md                       # Repository overview and roadmap
 ```
 
