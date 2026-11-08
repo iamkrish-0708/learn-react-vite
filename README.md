@@ -67,6 +67,18 @@ learn-react-vite/
 │   ├── NOTES.md                    # Key takeaways on variable scope and style objects
 │   └── package.json
 │
+├── 06-profile-card/
+│   ├── public/                     # Static profile image assets
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Button.jsx          # Custom styled profile action button
+│   │   │   └── Card.jsx            # Container wrapper component
+│   │   ├── App.css                 # Dark card styling & circular image masking
+│   │   ├── App.jsx                 # Dynamic leadership directory with .map()
+│   │   └── main.jsx
+│   ├── NOTES.md                    # Notes on static assets & container composition
+│   └── package.json
+│
 └── README.md                       # Repository overview and roadmap
 ```
 
